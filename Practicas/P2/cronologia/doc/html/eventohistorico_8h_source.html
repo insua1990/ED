@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Cronologia: Fichero Fuente include/eventohistorico.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Cronologia
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('eventohistorico_8h_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">eventohistorico.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="eventohistorico_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef __EVENTOHISTORICO</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define __EVENTOHISTORICO</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classEventoHistorico.html">   32</a></span>&#160;<span class="keyword">class </span><a class="code" href="classEventoHistorico.html">EventoHistorico</a> {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keyword">private</span>:</div><div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classEventoHistorico.html#a5f38886793601e0e0102edba6d52435f">   54</a></span>&#160;                <span class="keywordtype">int</span> <a class="code" href="classEventoHistorico.html#a5f38886793601e0e0102edba6d52435f">fecha</a>; </div><div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classEventoHistorico.html#ad89484c939bc96494a7ac99de81ff80d">   55</a></span>&#160;                vector&lt;string&gt; <a class="code" href="classEventoHistorico.html#ad89484c939bc96494a7ac99de81ff80d">eventos</a>;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keyword">public</span>:</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                <span class="keywordtype">void</span> SetFecha(<span class="keywordtype">int</span> fec);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                </div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                </div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                <span class="keywordtype">int</span> GetFecha();</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                </div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                vector&lt;string&gt; GetEventos();</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <span class="keyword">friend</span> istream&amp; operator&gt;&gt; (istream&amp; is, <a class="code" href="classEventoHistorico.html">EventoHistorico</a>&amp; e);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;};</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classEventoHistorico_html_ad89484c939bc96494a7ac99de81ff80d"><div class="ttname"><a href="classEventoHistorico.html#ad89484c939bc96494a7ac99de81ff80d">EventoHistorico::eventos</a></div><div class="ttdeci">vector&lt; string &gt; eventos</div><div class="ttdef"><b>Definition:</b> <a href="eventohistorico_8h_source.html#l00055">eventohistorico.h:55</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classEventoHistorico_html"><div class="ttname"><a href="classEventoHistorico.html">EventoHistorico</a></div><div class="ttdoc">T.D.A. EventoHistorico. </div><div class="ttdef"><b>Definition:</b> <a href="eventohistorico_8h_source.html#l00032">eventohistorico.h:32</a></div></div>
+<div class="ttc" id="classEventoHistorico_html_a5f38886793601e0e0102edba6d52435f"><div class="ttname"><a href="classEventoHistorico.html#a5f38886793601e0e0102edba6d52435f">EventoHistorico::fecha</a></div><div class="ttdeci">int fecha</div><div class="ttdef"><b>Definition:</b> <a href="eventohistorico_8h_source.html#l00054">eventohistorico.h:54</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<hr>
+<small>ETS Ingeniería Informática y Telecomunicaciones. Universidad de Granada.
+</small>
